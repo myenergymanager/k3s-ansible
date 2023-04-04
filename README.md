@@ -44,10 +44,6 @@ Start provisioning of the cluster using the following command:
 ```bash
 ansible-playbook site.yml -i inventory/sample/hosts.ini 
 ```
-## firewall
-```bash
-ansible-playbook firewall.yml -i inventory/sample/hosts.ini 
-```
 ## Kubeconfig
 
 To get access to your **Kubernetes** cluster just
